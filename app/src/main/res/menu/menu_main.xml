@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/facebook"
+        android:title="facebook"
+        android:orderInCategory="101"
+        android:icon="@drawable/facebook"
+        app:showAsAction = "ifRoom|withText"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="share"
+        android:icon="@drawable/share"
+        android:orderInCategory="102"
+        app:showAsAction = "ifRoom|withText"/>
+
+    <item
+        android:id="@+id/rateme"
+        android:title="RateMe"
+        android:orderInCategory="103"
+        app:showAsAction = "never"/>
+
+    <item
+        android:id="@+id/findme"
+        android:title="FindMe"
+        android:orderInCategory="104"
+        app:showAsAction = "never"/>
+    </group>
+
+
+</menu>
